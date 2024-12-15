@@ -1,0 +1,57 @@
+/* Make the header and footer full width */
+header, footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Set a maximum width for the main section and center it */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Make the h1 and h2 headings responsive */
+h1, h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Style the list elements for the benefits and tools sections */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Make the website responsive on smaller screens */
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    padding-left: 1rem;.topbutton {
+	height:50px;
+	width:50px;
+	position:fixed;
+	right:5px;
+	bottom:5px;
+	z-index:1;
+	background-image: url("top1.png");
+	background-repeat:no-repeat;
+	display:none;
+}
+  }
+}
